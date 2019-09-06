@@ -8,7 +8,7 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-    that.getRoutineStyle();
+    // that.getRoutineStyle();
   },
   globalData: {
     routineStyle:'#ffffff',
@@ -16,7 +16,8 @@ App({
     openPages:'',
     spid:0,
     urlImages: '',
-    url: 'https://maya.shandaershoushichang.cn'
+    // url: 'https://maya.shandaershoushichang.cn'
+    url: 'http://xl.forever.love'
   },
   getRoutineStyle:function(){
     var that = this;

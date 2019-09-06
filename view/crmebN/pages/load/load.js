@@ -7,7 +7,7 @@ Page({
   },
   onLoad: function (options) {
     var that = this;
-    that.getEnterLogo();
+    // that.getEnterLogo();
     app.setBarColor();
   },
   getEnterLogo: function () {
